@@ -9,5 +9,10 @@
     ],
     "require": {
         "sokil/php-mongo": "1.2.4"
+    },
+    "autoload": {
+        "psr-0": {
+            "Sokil": "src/"
+        }
     }
 }
