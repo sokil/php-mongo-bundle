@@ -25,6 +25,8 @@ class MongoExtension extends Extension
         $loader = new Loader\YamlFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));
         $loader->load('services.yml');
         
-        $container->setParameter('dsn', $config['dsn']);
+        if(isset($config['dsn'])) {
+            $container->setParameter('dsn', $config['dsn']);
+        }
     }
 }
