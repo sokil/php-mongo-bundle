@@ -1,0 +1,7 @@
+parameters:
+    dsn: mongodb://127.0.0.1
+
+services:
+    mongo:
+        class: Sokil\Mongo\Client
+        arguments: ["%dsn%"]
