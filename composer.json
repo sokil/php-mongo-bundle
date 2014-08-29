@@ -1,0 +1,13 @@
+{
+    "name": "sokil/php-mongo-bundle",
+    "description": "MongoDb Symfony Bundle",
+    "authors": [
+        {
+            "name": "sokil dmytro",
+            "email": "dmytro.sokil@gmail.com"
+        }
+    ],
+    "require": {
+        "sokil/php-mongo": "1.2.4"
+    }
+}
