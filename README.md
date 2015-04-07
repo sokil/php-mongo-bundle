@@ -1,7 +1,7 @@
 php-mongo-bundle
 ================
 
-MongoDB Symfony Bundle based on [PHPMongo Component](https://github.com/sokil/php-mongo)
+MongoDB Symfony Bundle based on [PHPMongo](https://github.com/sokil/php-mongo)
 
 Installation
 ------------
