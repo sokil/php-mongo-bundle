@@ -26,7 +26,7 @@ class MongoExtension extends Extension
         $loader->load('services.yml');
         
         if(isset($config['dsn'])) {
-            $container->setParameter('dsn', $config['dsn']);
+            $container->setParameter('mongo.dsn', $config['dsn']);
         }
     }
 }
