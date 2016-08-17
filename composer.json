@@ -1,9 +1,11 @@
 {
     "name": "sokil/php-mongo-bundle",
     "description": "MongoDb Symfony Bundle",
+    "homepage": "http://phpmongokit.github.io/",
+    "license": "MIT",
     "authors": [
         {
-            "name": "sokil dmytro",
+            "name": "Sokil Dmytro",
             "email": "dmytro.sokil@gmail.com"
         }
     ],
